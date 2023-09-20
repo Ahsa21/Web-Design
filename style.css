@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+
+.img1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+
+.ul-head {
+    display: flex;
+    gap: 80px;
+}
+
+
+.search {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 40px;
+    border: orange 2px solid;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.search2 {
+    background-color: orange;
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.body2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    
+}
+
+.meny {
+    margin-right: 50px;
+    background-color: black;
+    color: white;
+    width: 230px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.login-2, .login2 {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login2 {
+    color: #ca8300;
+    background-color: white;
+    font-weight: 900;
+}
+
+.login-2 {
+    font-weight: 600;
+    background-color: rgb(255 167 0);
+    color: black;
+
+}
+
+.ul2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.email, .password {
+    border-bottom: solid orange 0.5px;
+}
